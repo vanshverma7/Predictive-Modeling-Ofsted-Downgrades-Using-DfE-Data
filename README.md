@@ -97,11 +97,11 @@ We trained a **Logistic Regression classifier** for binary classification:
 | True Negatives (TN)   | 768      |
 
 ### 🔍 Confusion Matrix
-![Confusion Matrix](images/confusion_matrix.png)  
+![Confusion Matrix](Images/heat)  
 *Confusion matrix for Logistic Regression model—balanced class weights improve downgrade recall.*
 
 ### 🧮 Feature Coefficients
-![Feature Coefficients](images/logistic_coefficients.png)  
+![Feature Coefficients](Images/coeff)  
 *Logistic Regression coefficients showing strongest predictors of downgrade risk.*
 
 ---
@@ -132,10 +132,6 @@ We trained a **Logistic Regression classifier** for binary classification:
 | Performance Decline                    | No (0)    |
 | **Predicted Downgrade Probability**    | **12.48%** |
 
-### 📊 Hypothetical Case Comparison
-![Hypothetical Comparison](images/hypothetical_comparison.png)  
-*Side-by-side comparison of features and downgrade risk probabilities.*
-
 ---
 
 ## 8. ✅ Recommendations
@@ -147,9 +143,6 @@ We trained a **Logistic Regression classifier** for binary classification:
 - Integrate this model into dashboards for ongoing monitoring
 
 ---
-
-## 9. 🧰 How to Run the Project
-
 
 ## 🔭 Future Work
 
@@ -164,4 +157,3 @@ We trained a **Logistic Regression classifier** for binary classification:
 
 - [DfE School Performance Tables](https://www.compare-school-performance.service.gov.uk/download-data)
 - [Ofsted Statistical Releases](https://www.gov.uk/government/collections/ofsted-inspections-statistical-releases)
-- Gelman, A., & Hill, J. (2006). *Data Analysis Using Regression and Multilevel/Hierarchical Models*
