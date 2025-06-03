@@ -62,7 +62,7 @@ To enhance predictive power:
 - Encoded Ofsted downgrade as binary target.
 
 ### 📈 Performance Decline Distribution
-![Performance Decline](Images/Screenshot 2025-05-07 211539.png)  
+![Performance Decline](Images/corr)  
 *Distribution of `Performance_Decline` feature showing prevalence of consistent academic drop-offs.*
 
 ---
