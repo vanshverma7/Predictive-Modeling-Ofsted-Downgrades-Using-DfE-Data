@@ -1,6 +1,6 @@
 # 📉 Predicting Ofsted Downgrades in UK Secondary Schools
 
-## 1. Business Problem & Data Sources
+## 1. 📘 Business Problem & Data Sources
 
 ### Problem Statement
 In the majority of cases, schools do not experience an abrupt decline in quality. Rather, before an Ofsted inspection results in a downgraded rating (e.g., "Good" → "Requires Improvement"), there are typically **early warning signs** such as:
