@@ -48,7 +48,7 @@ After cleaning and merging data from three academic years (2021–2023), we cond
   - Absence Rate had a **negative correlation** with performance metrics (~−0.82)
 
 ### 📊 Correlation Matrix
-![Correlation Matrix](images/correlation_matrix.png)  
+![Correlation Matrix](Images/Screenshot 2025-05-07 211539.png)  
 *Correlation matrix showing strong relationships between GCSE scores, Progress 8, and Absence Rate.*
 
 ---
