@@ -1,8 +1,8 @@
 # 📉 Predicting Ofsted Downgrades in UK Secondary Schools
 
-## 1. 📘 Business Problem & Data Sources
+## 1. Business Problem & Data Sources
 
-### 🧩 Problem Statement
+### Problem Statement
 In the majority of cases, schools do not experience an abrupt decline in quality. Rather, before an Ofsted inspection results in a downgraded rating (e.g., "Good" → "Requires Improvement"), there are typically **early warning signs** such as:
 
 - Declining Progress 8 scores
@@ -13,15 +13,15 @@ These signals are often **overlooked until it’s too late** for effective inter
 
 This project proposes a **data-driven early warning system** that uses publicly available datasets to **identify “Good”-rated schools showing early signs of decline**. This system will support:
 
-- ✅ Early identification of at-risk schools
-- 🎯 Targeted interventions
-- 💡 Improved outcomes and reduced cost of recovery
+-  Early identification of at-risk schools
+-  Targeted interventions
+-  Improved outcomes and reduced cost of recovery
 
 ---
 
 ## 2. 📂 Data Sources & Technical Setup
 
-### 📊 Datasets Used
+###  Datasets Used
 
 We use two main open datasets:
 
