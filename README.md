@@ -1,6 +1,6 @@
 # 📉 Predicting Ofsted Downgrades in UK Secondary Schools
 
-## 1. 📘 Business Problem & Data Sources
+## 1. Business Problem & Data Sources
 
 ### Problem Statement
 In the majority of cases, schools do not experience an abrupt decline in quality. Rather, before an Ofsted inspection results in a downgraded rating (e.g., "Good" → "Requires Improvement"), there are typically **early warning signs** such as:
@@ -19,7 +19,7 @@ This project proposes a **data-driven early warning system** that uses publicly 
 
 ---
 
-## 2. 📂 Data Sources & Technical Setup
+## 2. Data Sources & Technical Setup
 
 ###  Datasets Used
 
@@ -38,7 +38,7 @@ We use Python and the following libraries:
 
 ---
 
-## 3. 🧪 Data Analysis
+## 3. Data Analysis
 
 After cleaning and merging data from three academic years (2021–2023), we conducted exploratory data analysis:
 
@@ -53,7 +53,7 @@ After cleaning and merging data from three academic years (2021–2023), we cond
 
 ---
 
-## 4. 🛠️ Feature Engineering
+## 4. Feature Engineering
 
 To enhance predictive power:
 
@@ -61,13 +61,13 @@ To enhance predictive power:
 - Removed 465 rows missing GCSE Grade 5+ scores.
 - Encoded Ofsted downgrade as binary target.
 
-### 📈 Performance Decline Distribution
+### Performance Decline Distribution
 ![Performance Decline](Images/corr)  
 *Distribution of `Performance_Decline` feature showing prevalence of consistent academic drop-offs.*
 
 ---
 
-## 5. 🤖 Machine Learning
+## 5. Machine Learning
 
 We trained a **Logistic Regression classifier** for binary classification:
 
@@ -86,7 +86,7 @@ We trained a **Logistic Regression classifier** for binary classification:
 
 ---
 
-## 6. 📈 Model Performance
+## 6. Model Performance
 
 | Metric                | Result   |
 |-----------------------|----------|
@@ -96,19 +96,19 @@ We trained a **Logistic Regression classifier** for binary classification:
 | True Positives (TP)   | 44       |
 | True Negatives (TN)   | 768      |
 
-### 🔍 Confusion Matrix
+### Confusion Matrix
 ![Confusion Matrix](Images/heat)  
 *Confusion matrix for Logistic Regression model—balanced class weights improve downgrade recall.*
 
-### 🧮 Feature Coefficients
+### Feature Coefficients
 ![Feature Coefficients](Images/coeff)  
 *Logistic Regression coefficients showing strongest predictors of downgrade risk.*
 
 ---
 
-## 7. 🔮 Hypothetical Scenarios
+## 7. Hypothetical Scenarios
 
-### 📍 Scenario A: High-Risk School
+### Scenario A: High-Risk School
 
 | Feature                                | Value     |
 |----------------------------------------|-----------|
@@ -120,7 +120,7 @@ We trained a **Logistic Regression classifier** for binary classification:
 | Performance Decline (2-year drop)      | Yes (1)   |
 | **Predicted Downgrade Probability**    | **96.79%** |
 
-### 📍 Scenario B: Low-Risk School
+### Scenario B: Low-Risk School
 
 | Feature                                | Value     |
 |----------------------------------------|-----------|
@@ -134,7 +134,7 @@ We trained a **Logistic Regression classifier** for binary classification:
 
 ---
 
-## 8. ✅ Recommendations
+## 8. Recommendations
 
 - Intervene early in schools with:
   - Declining Progress 8 and GCSE Grade 5+
@@ -144,7 +144,7 @@ We trained a **Logistic Regression classifier** for binary classification:
 
 ---
 
-## 🔭 Future Work
+## Future Work
 
 - Explore additional models (Random Forest, XGBoost)
 - Include demographic and regional features
@@ -153,7 +153,7 @@ We trained a **Logistic Regression classifier** for binary classification:
 
 ---
 
-## 📚 References
+## References
 
 - [DfE School Performance Tables](https://www.compare-school-performance.service.gov.uk/download-data)
 - [Ofsted Statistical Releases](https://www.gov.uk/government/collections/ofsted-inspections-statistical-releases)
