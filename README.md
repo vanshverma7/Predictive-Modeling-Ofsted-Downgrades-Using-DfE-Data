@@ -1,4 +1,4 @@
-# 📉 Predicting Ofsted Downgrades in UK Secondary Schools
+# Predicting Ofsted Downgrades in UK Secondary Schools
 
 ## 1. Business Problem & Data Sources
 
